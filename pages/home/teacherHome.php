@@ -77,6 +77,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['uname']) && $_SESSION['Accstatus'
 											</form>
 											*/?>
 											<form name="form" action="teacherClassLink.php"method="post">
+												<p> <?php if($row['classLink']){ echo $row['classLink']; }?></p>
 												<input type="text" name="classLink" id='classLink' placeholder=<?php if($row['classLink']){ echo $row['classLink']; }else { echo "ClassLink";}?> class="form-control">
 												<input type="text" name="stdId" id="stdId" value=<?php echo $row_stu['id'];?> class="d-none" >
 												<button type="submit" class="btn2">Upload Link</button>
