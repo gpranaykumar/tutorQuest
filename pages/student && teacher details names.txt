@@ -1,0 +1,49 @@
+Student
+----------
+
+name
+uname
+email
+gender
+password
+re_password
+class_study
+board
+grade
+number
+pnumber
+state
+city
+aadhar_no
+role
+            reason
+status: 0 - Not Activated
+        1 - Verified
+        2 - Rejected
+        3 - Blocked by Admin
+        4 - otp verification
+
+-----------------------
+teacher
+--------------
+name
+uname
+gender
+password
+re_password
+subject
+experience
+price
+number
+
+
+----------------------
+
+mobile_req
+------------
+id
+student_id
+teacher_id
+status
+
+

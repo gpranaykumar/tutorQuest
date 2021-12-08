@@ -1,0 +1,55 @@
+
+
+.form_custom{
+	background:white;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	
+}
+.btndiv{
+	
+}
+.btn1{
+	border: none;
+	outline:none;
+	height:40px;
+	background-color:black;
+	color:white;
+	border-radius:4px;
+	margin: 1px;
+}
+.btn1:hover{
+	background:white;
+	border:1px solid;
+	color:black;
+}
+
+.btn2{
+	border: none;
+	outline:none;
+	background-color:black;
+	color:white;
+	border-radius:4px;
+	margin: 2px;
+}
+.btn2:hover{
+	background:white;
+	border:1px solid;
+	color:black;
+}
+
+
+.btn3{
+	border: none;
+	outline:none;
+	background-color:black;
+	color:white;
+	border-radius:4px;
+	margin: 5px;
+}
+.btn3:hover{
+	background:white;
+	border:1px solid;
+	color:black;
+}
+

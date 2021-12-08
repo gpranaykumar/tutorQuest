@@ -1,0 +1,30 @@
+
+.btnA{
+	border: none;
+	outline:none;
+	background-color:green;
+	color:white;
+	border-radius:4px;
+	padding-bottom:1px;
+    margin: 1px;
+}
+.btnA:hover{
+	background:white;
+	border:1px solid;
+	color:green;
+}
+
+.btnR{
+	border: none;
+	outline:none;
+	background-color:red;
+	color:white;
+	border-radius:4px;
+	padding-bottom:1px;
+    margin: 1px;
+}
+.btnR:hover{
+	background:white;
+	border:1px solid;
+	color:red;
+}
